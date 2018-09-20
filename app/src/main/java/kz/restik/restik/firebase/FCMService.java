@@ -72,7 +72,7 @@ public class FCMService extends FirebaseMessagingService {
 
         NotificationCompat.Builder mBuilder =
                 new NotificationCompat.Builder(this, channel);
-        mBuilder.setSmallIcon(R.mipmap.ic_launcher);
+        mBuilder.setSmallIcon(R.drawable.ic_main_notif);
         /*if(largeIcon != -1) {
             Bitmap largeIconB =
                     BitmapFactory.decodeResource(context.getResources(), largeIcon);
